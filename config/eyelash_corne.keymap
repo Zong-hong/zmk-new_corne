@@ -44,6 +44,15 @@
             #binding-cells = <0>;
             bindings = <&mt LEFT_SHIFT SPACE>, <&caps_word>;
         };
+
+        shift_caps: shift_caps {
+            compatible = "zmk,behavior-hold-tap";
+            label = "shift_caps";
+            bindings = <&kp>, <&caps_word>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -98,10 +107,10 @@
         default_layer {
             display-name = "Gallium";
             bindings = <
-&none  &kp B  &kp L  &kp D   &kp C   &kp V                           &kp UP                       &kp J      &kp Y            &kp O      &kp U     &kp COMMA   &none
-&none  &kp N  &kp R  &kp T   &kp S   &kp G                 &kp LEFT  &kp K_PLAY_PAUSE  &kp RIGHT  &kp P      &kp H            &kp A      &kp E     &kp I       &none
-&none  &kp X  &kp Q  &kp M   &kp W   &kp Z   &kp C_MUTE              &kp DOWN                     &kp K      &kp F            &kp APOS   &kp SEMI  &kp PERIOD  &none
-                     &trans  &trans  &trans                                                       &lt 3 DEL  &lt 1 BACKSPACE  &kp RCTRL
+&none  &kp B  &kp L  &kp D                  &kp C      &kp V                                             &kp UP                       &kp J      &kp Y            &kp O      &kp U     &kp COMMA   &none
+&none  &kp N  &kp R  &kp T                  &kp S      &kp G                                   &kp LEFT  &kp K_PLAY_PAUSE  &kp RIGHT  &kp P      &kp H            &kp A      &kp E     &kp I       &none
+&none  &kp X  &kp Q  &kp M                  &kp W      &kp Z                     &kp C_MUTE              &kp DOWN                     &kp K      &kp F            &kp APOS   &kp SEMI  &kp PERIOD  &none
+                     &mt LEFT_ALT LEFT_GUI  &kp SPACE  &shift_caps LEFT_SHIFT 0                                                       &lt 3 DEL  &lt 1 BACKSPACE  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
