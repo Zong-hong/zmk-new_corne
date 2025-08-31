@@ -46,8 +46,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:keyboard-space$$
   - '&td0'
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Number}
-  - {t: '$$mdi:backspace$$', h: Mouse}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
+  - {t: '$$mdi:backspace$$', h: Number}
   - $$mdi:apple-keyboard-control$$
   Number:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -95,8 +95,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
