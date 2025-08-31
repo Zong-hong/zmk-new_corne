@@ -46,8 +46,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
-  - {t: '$$mdi:backspace$$', h: Number}
+  - {t: '$$mdi:backspace$$', h: Mouse}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Number}
   - $$mdi:apple-keyboard-control$$
   Number:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -76,7 +76,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
@@ -89,8 +89,8 @@ layers:
   - PgDn
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - <
-  - '>'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
