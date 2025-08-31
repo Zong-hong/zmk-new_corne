@@ -43,9 +43,9 @@ layers:
   - {t: ;, s: ':'}
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:keyboard-space$$
-  - '&td0'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
   - {t: '$$mdi:backspace$$', h: Number}
   - $$mdi:apple-keyboard-control$$
