@@ -5,8 +5,8 @@ layers:
   - B
   - L
   - D
-  - W
-  - Z
+  - C
+  - V
   - $$mdi:arrow-up-bold$$
   - J
   - Y
@@ -33,8 +33,8 @@ layers:
   - X
   - Q
   - M
-  - C
-  - V
+  - W
+  - Z
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
   - K
