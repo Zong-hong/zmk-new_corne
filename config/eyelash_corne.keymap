@@ -85,14 +85,10 @@
             key-positions = <1 15 29>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <24 25>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
+            layers = <1 0>;
         };
 
         layer_2 {
@@ -107,10 +103,10 @@
         default_layer {
             display-name = "Gallium";
             bindings = <
-&none  &kp B  &kp L  &kp D                  &kp C      &kp V                                             &kp UP                       &kp J      &kp Y            &kp O      &kp U     &kp COMMA   &none
-&none  &kp N  &kp R  &kp T                  &kp S      &kp G                                   &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp P      &kp H            &kp A      &kp E     &kp I       &none
-&none  &kp X  &kp Q  &kp M                  &kp W      &kp Z                     &kp C_MUTE              &kp DOWN                     &kp K      &kp F            &kp APOS   &kp SEMI  &kp PERIOD  &none
-                     &mt LEFT_ALT LEFT_GUI  &kp SPACE  &shift_caps LEFT_SHIFT 0                                                       &lt 3 ESC  &lt 1 BACKSPACE  &kp LCTRL
+&none  &kp B  &kp L  &kp D                  &kp C                &kp V                                 &kp UP                       &kp J        &kp Y      &kp O                &kp U     &kp COMMA   &none
+&none  &kp N  &kp R  &kp T                  &kp S                &kp G                       &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp P        &kp H      &kp A                &kp E     &kp I       &none
+&none  &kp X  &kp Q  &kp M                  &kp W                &kp Z         &kp C_MUTE              &kp DOWN                     &kp K        &kp F      &kp APOS             &kp SEMI  &kp PERIOD  &none
+                     &mt LEFT_ALT LEFT_GUI  &shift_caps SPACE 0  &lt 3 ESCAPE                                                       &lt 1 ENTER  &kp SPACE  &mt LCTRL BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -119,10 +115,10 @@
         layer_1 {
             display-name = "Number";
             bindings = <
-&trans  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                             &mmv MOVE_UP                     &kp HOME       &kp END           &kp UP             &kp BACKSPACE  &kp DELETE     &trans
-&trans  &kp N6     &kp N7     &kp N8     &kp N9     &kp N0             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PAGE_UP    &kp LEFT          &kp DOWN           &kp RIGHT      &kp RCTRL      &trans
-&trans  &kp SLASH  &kp ASTRK  &kp MINUS  &kp PLUS   &kp DOT  &trans                    &mmv MOVE_DOWN                   &kp PAGE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &kp RIGHT_GUI  &trans
-                              &trans     &kp EQUAL  &trans                                                              &trans         &trans            &trans
+&trans  &kp N1     &kp N2     &kp N3     &kp N4    &kp N5                               &mmv MOVE_UP                     &kp HOME       &kp END           &kp UP             &kp BACKSPACE  &kp DELETE     &trans
+&trans  &kp N6     &kp N7     &kp N8     &kp N9    &kp N0               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PAGE_UP    &kp LEFT          &kp DOWN           &kp RIGHT      &kp RCTRL      &trans
+&trans  &kp SLASH  &kp ASTRK  &kp MINUS  &kp PLUS  &kp DOT    &trans                    &mmv MOVE_DOWN                   &kp PAGE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &kp RIGHT_GUI  &trans
+                              &trans     &trans    &kp EQUAL                                                             &trans         &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
