@@ -44,11 +44,11 @@ layers:
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:keyboard-space$$'}
   - {t: '$$mdi:keyboard-esc$$', h: Mouse}
-  - {t: '$$mdi:backspace$$', h: Number}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-return$$', h: Number}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   Number:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -93,10 +93,10 @@ layers:
   - RIGHT GUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,16 +192,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-- p: [24, 25]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [15, 16]
   k: $$mdi:keyboard-tab$$
+  l: [Number, Gallium]
 - p: [44, 45]
   k: Fn
