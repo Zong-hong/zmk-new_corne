@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', h: Number}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   Number:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -90,7 +90,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RIGHT GUI
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,6 +201,6 @@ combos:
   k: '&soft_off'
 - p: [15, 16]
   k: $$mdi:keyboard-tab$$
-  l: [Number, Gallium]
+  l: [Number]
 - p: [44, 45]
   k: Fn
