@@ -109,7 +109,7 @@
                      &mt LEFT_ALT LEFT_GUI  &shift_caps LEFT_SHIFT 0  &lt 3 ESCAPE                                                       &lt 1 ENTER  &kp SPACE  &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_1 {
